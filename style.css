@@ -1,0 +1,51 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+/* CSS Constitution */
+/* Ingram Rivera */
+
+/*
+ * HTML Body
+ * - Use constitution paper background image, or yellow with transparency if the image does not load
+ * - Make sure the background is centered and covers the whole body element
+ * - Text should have the "Parisienne" font, or cursive if that font cannot load
+ * - All text should be bold or "strong" to make it look like ink
+ */
+body {
+    /* Background Settings */
+    background-image: url("./constitution_paper.png");
+    background-color: #FFFF00CC;
+    background-position: center;
+    background-size: cover;
+    
+    /* Global Text Settings */
+    font-family: Parisienne, cursive;
+    font-weight: bold;
+}
+
+/* Heading 1: Center aligned and a font size of 40 pixels */
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Heading 2: Center aligned and a font size of 30 pixels */
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Paragraphs: Justify aligned, font size of 20 pixels, max screen width of 1000 pixels, and auto-center margins */
+p {
+    font-size: 20px;
+    text-align: justify;
+    
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Anchor Links: Gray font color and remove underline
+a {
+    color: #555555;
+    text-decoration: none;
+}
